@@ -1,0 +1,1 @@
+# leagueofquartet_encountradar
