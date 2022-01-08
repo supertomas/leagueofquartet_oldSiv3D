@@ -116,12 +116,12 @@ void Main()
 	//音
 	SoundAsset::Register(L"wall", L"Sound/wall.wav");
 	SoundAsset::Register(L"damage", L"Sound/damage.wav");
-	SoundAsset::Register(L"カーソル音", L"Sound/カーソル音.mp3");
-	SoundAsset::Register(L"セレクト音", L"Sound/セレクト音.mp3");
-	SoundAsset::Register(L"キャンセル", L"Sound/キャンセル.mp3");
+	SoundAsset::Register(L"カーソル音", L"Sound/cursor.mp3");
+	SoundAsset::Register(L"セレクト音", L"Sound/select.mp3");
+	SoundAsset::Register(L"キャンセル", L"Sound/cancel.mp3");
 	SoundAsset::Register(L"fire", L"Sound/fire.wav");
 	SoundAsset::Register(L"decide", L"Sound/choice.mp3");
-	SoundAsset::Register(L"話しかける", L"Sound/話しかける.mp3");
+	SoundAsset::Register(L"話しかける", L"Sound/talk.mp3");
 	SoundAsset::Register(L"Town", L"Sound/town.mp3", SoundLoop(true));
 	SoundAsset::Register(L"BattleM", L"Sound/battle.wav", SoundLoop(true));
 	SoundAsset::Register(L"break", L"Sound/break.mp3", SoundLoop(true));
